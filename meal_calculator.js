@@ -46,7 +46,7 @@ var diner2 = new Person("Rob", [4, 5, 6, 7, 8]);
 var diner3 = new Person("Dob", [11, 12, 1, 2, 3]);
 
 //Add new check
-var check1 = new Check(1, [diner1.dinerFoodTotal(), diner2.dinerFoodTotal(), diner3.dinerFoodTotal()]);
+var check1 = new Check(1, [diner1, diner2, diner3]);
 
 
 //Output
